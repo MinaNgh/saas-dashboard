@@ -1,8 +1,8 @@
 import { useCallback } from "react";
 function Sorts({sort,setSort}){
-    const handleFilter = useCallback((e)=>{setSort(e.target.value)},[]);
+    const handleSort = useCallback((e)=>{setSort(e.target.value)},[sort]);
     return(
-        <select value={sort} onChange={handleFilter}>
+        <select value={sort} onChange={handleSort}>
             <option value="asc">A-Z</option>
             <option value="desc">Z-A</option>
         </select>
