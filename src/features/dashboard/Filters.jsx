@@ -3,7 +3,7 @@ import { useCallback } from "react";
 function Filters({filter, setFilter}){
     const handlefilter = useCallback((e)=>{
         setFilter(e.target.value);
-        },[filter])
+        },[setFilter])
     return(
         <select value = {filter} onChange={handlefilter}>
             <option  value="all">All</option>
