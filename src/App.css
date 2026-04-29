@@ -230,4 +230,16 @@ h1 {
   .sidebar { 
     display: none; 
   } 
+}
+#loginButton{
+  width: 100%;
+  padding: 10px;
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+#loginButton:hover{
+   background-color: #4338ca;
 } 
