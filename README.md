@@ -98,7 +98,6 @@ Chart.js is used to render interactive graphs such as:
 
 ## 📷 Screenshots (Optional but Recommended)
 
-> Add images here for better recruiter impact
 
 ```md
 ![Dashboard](./screenshots/dashboard.png)
