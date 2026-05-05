@@ -9,8 +9,8 @@ function Login(){
         navigate("/");
     };
     return(
-        <div className="container">
-            <div className="card">
+        <div className="login-container">
+            <div className="login-card">
                 <h2>Login Page</h2>
                 <button id="loginButton" onClick={handleLogin}>Login</button>
             </div>
