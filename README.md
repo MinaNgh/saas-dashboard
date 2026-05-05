@@ -96,7 +96,7 @@ Chart.js is used to render interactive graphs such as:
 
 ---
 
-## 📷 Screenshots (Optional but Recommended)
+## 📷 Screenshots 
 
 
 ```md
